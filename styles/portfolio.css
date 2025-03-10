@@ -20,14 +20,21 @@
 }
 
 .btn-primary{
-    background-color: #FD6E0A;
+    background-color: red;
+   
     font-weight: bold;
     font-size: 20px;
     color: white;
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
+    
 }
+
+
+.btn-primary:hover {
+    background-color: blue; /* Changes color on hover */
+  }
 
 .section-title{
     font-size: 35px;
@@ -98,6 +105,8 @@ nav li a {
 }
 .banner-profile-pic{
     width: 580px;
+    border-radius: 800px;
+    margin-bottom: 20px;
 }
 
 /* main styles */
